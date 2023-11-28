@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <div class="fundo">
+        <h1>Bernardo A. M. Soares</h1>
+
+        <div class="calculadora">
+            <h1 class="titulo">Calculadora IMC</h1>
+            <ul class="lista">
+                <li class="input">ALTURA: <input type="number" step="any" class="inputAltura" id="altura"></li>
+            </ul>
+            <ul class="lista">
+                <li class="inputPeso">PESO: <input type="number" step="any" class="inputPeso" id="peso"></li>
+            </ul>
+            <ul class="lista">
+                <li class="resultado">RESULTADO: <p id="final"></p></li>
+            </ul>
+            <button class="botao" onclick="calcularIMC()">Calcular IMC</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
